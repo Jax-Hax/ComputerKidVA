@@ -11,7 +11,7 @@
 	];
 </script>
 <input type="range" bind:value={minPrice} min=0 max=100>
-{value}
+{minPrice}
 {#each computers as computer}
 {#if computer.price >= minPrice && computer.price <= maxPrice }
 <div>
