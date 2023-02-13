@@ -6,10 +6,12 @@
 		{
 			price: 100,
 			name: 'SPECIAL: Lenovo Thinkpad off Ebay',
-            img: ''
+            img: '',
+            description: ''
 		}
 	];
 </script>
+<input type="range" bind:value={maxPrice} min=0 max=100>
 <input type="range" bind:value={minPrice} min=0 max=100>
 {minPrice}
 {#each computers as computer}
@@ -19,3 +21,6 @@
 </div>
 {/if}
 {/each}
+<style>
+    
+</style>
