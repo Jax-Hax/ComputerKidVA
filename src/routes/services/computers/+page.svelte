@@ -1,26 +1,20 @@
-<script>
-    let minPrice = 10;
-    let maxPrice = 500;
-    let value = 0;
-    let computers = [
-		{
-			price: 100,
-			name: 'SPECIAL: Lenovo Thinkpad off Ebay',
-            img: '',
-            description: ''
-		}
-	];
-</script>
-<input type="range" bind:value={maxPrice} min=0 max=100>
-<input type="range" bind:value={minPrice} min=0 max=100>
-{minPrice}
-{#each computers as computer}
-{#if computer.price >= minPrice && computer.price <= maxPrice }
-<div>
-    {computer.name}
+One of the products I offer is help picking out the perfect laptop for you. Whether you need something high end for the highest quality gaming, or just a simple low-power computer to check your email and look at the internet, I will find the perfect fit for you.
+The chart below is an example of what I could provide, with one laptop for each major catagory. If you need something specific, or don't understand how to pick out the perfect one, ask me and I will help you come up with a laptop for only $5.
+<div id="computerGrid">
+<div class="computerItem">
+<img src="/checkmark(1).jpg" alt="Girl in a jacket">
 </div>
-{/if}
-{/each}
+
+<div class="computerItem">
+<img src="/checkmark(1).jpg" alt="Girl in a jacket">
+</div>
+<div class="computerItem">
+<img src="/checkmark(1).jpg" alt="Girl in a jacket">
+</div>
+</div>
 <style>
-    
+    #computerGrid{
+        display: grid;
+        grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    }
 </style>
