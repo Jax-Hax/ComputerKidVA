@@ -3,9 +3,7 @@
 		<div>
 			<h1>Need help with a computer? Want your own website?</h1>
 			<p>
-				I can solve many computer problems remotely, and design the website of your dreams. Whether
-				you are a small business trying to get a precense on the web, or someone learning how to use
-				their email, let me help you.
+				This is the site for all your tech needs, from tech support, to website design, to smart home equipment, and more!
 			</p>
 			<button> Website </button>
 			<button> Tech Support </button>
@@ -13,6 +11,16 @@
 		<div>
 			<img src="favicon.png" alt="" />
 		</div>
+	</section>
+	<section id="eyecatcher2">
+		<h1>The solution to everything you could dream of.</h1>
+		<div>
+		<h2>Website design</h2>
+		<p></p>
+		</div>
+		<a href="/about">
+			<button> More about me </button>
+		</a>
 	</section>
 	<section id="webdesign">
 		<div>
