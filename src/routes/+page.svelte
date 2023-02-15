@@ -14,7 +14,11 @@
 			<img src="favicon.png" alt="" />
 		</div>
 	</section>
-	<section>
+	<section id="webdesign">
+		<div>
+			<img src="favicon.png" alt="" />
+		</div>
+		<div>
 		<h1>Website design made easy</h1>
 		<p>
 			A website can help immeasurably in promoting your business or resume, with anything from a
@@ -36,8 +40,9 @@
 		<a href="/services/webdev">
 			<button> Book a website </button>
 		</a>
+		</div>
 	</section>
-	<section>
+	<section id="techsupport">
 		<h1>Tech support for an affordable price</h1>
 		<p>
 			Do you need help picking out a new computer, or fixing your current one, but don't want to pay
@@ -52,7 +57,7 @@
 		</a>
 		<p>*If tech support exceeds an hour, there will be an additional $20 per hour, rounded up.</p>
 	</section>
-	<section>
+	<section id="aboutme">
 		<h1>About me</h1>
 		<p>
 			I am a programmer at the Math and Science program at Clover Hill. I have been programming for
@@ -63,7 +68,7 @@
 			<button> More about me </button>
 		</a>
 	</section>
-	<section>
+	<section id="contact">
 		<h1>Any questions?</h1>
 		<p>
 			Feel free to contact me at the button below and I will respond to you within 1-3 business
@@ -102,16 +107,13 @@ font-family: 'Open Sans', sans-serif;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		min-height: 400px;
 		padding: 75px 4vw;
-	}
-	#attentioncatcher {
-		background: linear-gradient(90deg, #1037a3, #0098fe);
-		display: flex;
-		flex-flow: column;
 		justify-content: space-between;
 		color: white;
 		gap: 1rem;
+	}
+	#attentioncatcher {
+		background: linear-gradient(90deg, #1037a3, #0098fe);
 	}
 	#attentioncatcher h1 {
 		font-size: 3rem;
@@ -123,16 +125,16 @@ font-family: 'Open Sans', sans-serif;
 		padding-bottom: 1em;
 	}
 	@media screen and (min-width: 768px) {
-		#attentioncatcher h1 {
+		h1 {
 			width: 66%;
 		}
-		#attentioncatcher {
+		section {
 			flex-flow: row nowrap;
 		}
-		#attentioncatcher p {
+		 p {
 			width: 66%;
 		}
-		#attentioncatcher img {
+		 img {
 			object-fit: contain;
 		}
 	}
