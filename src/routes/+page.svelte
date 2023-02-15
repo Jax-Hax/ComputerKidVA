@@ -16,7 +16,15 @@
 		<h1>The solution to everything you could dream of.</h1>
 		<div>
 		<h2>Website design</h2>
-		<p></p>
+		<p>Get a custom-coded website tailored perfectly to your needs.</p>
+		</div>
+		<div>
+		<h2>Tech support</h2>
+		<p>Help with issues, slow computers, and even product repair!</p>
+		</div>
+		<div>
+		<h2>Product consulting</h2>
+		<p>Recommendations for anything from a new laptop to voice controlled smart light bulbs.</p>
 		</div>
 		<a href="/about">
 			<button> More about me </button>
