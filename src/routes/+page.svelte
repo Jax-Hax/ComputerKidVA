@@ -14,17 +14,19 @@
 	</section>
 	<section id="eyecatcher2">
 		<h1>The solution to everything you could dream of.</h1>
-		<div>
-		<h2>Website design</h2>
-		<p>Get a custom-coded website tailored perfectly to your needs.</p>
-		</div>
-		<div>
-		<h2>Tech support</h2>
-		<p>Help with issues, slow computers, and even product repair!</p>
-		</div>
-		<div>
-		<h2>Product consulting</h2>
-		<p>Recommendations for anything from a new laptop to voice controlled smart light bulbs.</p>
+		<div class="row">
+			<div>
+				<h2>Website design</h2>
+				<p>Get a custom-coded website tailored perfectly to your needs.</p>
+			</div>
+			<div>
+				<h2>Tech support</h2>
+				<p>Help with issues, slow computers, and even product repair!</p>
+			</div>
+			<div>
+				<h2>Product consulting</h2>
+				<p>Recommendations for anything from a new laptop to voice controlled smart light bulbs.</p>
+			</div>
 		</div>
 		<a href="/about">
 			<button> More about me </button>
@@ -144,7 +146,10 @@ font-family: 'Open Sans', sans-serif;
 		h1 {
 			width: 66%;
 		}
-		section {
+		#attentioncatcher{
+			flex-flow: row nowrap;
+		}
+		#webdesign{
 			flex-flow: row nowrap;
 		}
 		 p {
@@ -152,6 +157,9 @@ font-family: 'Open Sans', sans-serif;
 		}
 		 img {
 			object-fit: contain;
+		}
+		.row{
+			flex-flow: row nowrap;
 		}
 	}
 	button {
