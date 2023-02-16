@@ -17,15 +17,12 @@
 			margin: 0;
 			padding: 0;
 			font-family: 'Arsenal', sans-serif;
-			color: #404040;
-		}
+			color: black;
+			}
 
-		h1 {
+		h1, h2, button{
 			font-family: 'Open Sans', sans-serif;
 			letter-spacing: 0.02em;
-		}
-		button {
-			font-family: 'Open Sans', sans-serif;
 		}
 		.headerbutton:hover {
 			background-color: white; /* Green */

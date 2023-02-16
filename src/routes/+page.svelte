@@ -13,17 +13,17 @@
 		</div>
 	</section>
 	<section id="eyecatcher2">
-		<h1>The solution to everything you could dream of.</h1>
+		<h1 style="padding-bottom: 1em">The solution to all of your tech troubles</h1>
 		<div class="row">
-			<div>
+			<div class="lineAbove">
 				<h2>Website design</h2>
 				<p>Get a custom-coded website tailored perfectly to your needs.</p>
 			</div>
-			<div>
+			<div class="lineAbove">
 				<h2>Tech support</h2>
 				<p>Help with issues, slow computers, and even product repair!</p>
 			</div>
-			<div>
+			<div class="lineAbove">
 				<h2>Product consulting</h2>
 				<p>Recommendations for anything from a new laptop to voice controlled smart light bulbs.</p>
 			</div>
@@ -142,6 +142,17 @@ font-family: 'Open Sans', sans-serif;
 		font-size: 1.5rem;
 		padding-bottom: 1em;
 	}
+	.lineAbove{
+		  border-top: 1px solid black;
+			padding: 2em 1em;
+	}
+	.lineAbove h2, .lineAbove p{
+		color: black;
+	}
+	#eyecatcher2 h1{
+		color: black;
+		font-size: 2.5rem;
+	}
 	@media screen and (min-width: 768px) {
 		h1 {
 			width: 66%;
@@ -159,7 +170,10 @@ font-family: 'Open Sans', sans-serif;
 			object-fit: contain;
 		}
 		.row{
+			display: flex;
 			flex-flow: row nowrap;
+			justify-content: space-between;
+			gap: 1rem;
 		}
 	}
 	button {
