@@ -1,9 +1,10 @@
-<body>    
+<body>
 	<section id="attentioncatcher">
 		<div>
 			<h1>Need help with a computer? Want your own website?</h1>
 			<p>
-				This is the site for all your tech needs, from tech support, to website design, to smart home equipment, and more!
+				This is the site for all your tech needs, from tech support, to website design, to smart
+				home equipment, and more!
 			</p>
 			<button> Website </button>
 			<button> Tech Support </button>
@@ -37,27 +38,27 @@
 			<img src="favicon.png" alt="" />
 		</div>
 		<div>
-		<h1>Website design made easy</h1>
-		<p>
-			A website can help immeasurably in promoting your business or resume, with anything from a
-			simple menu for a restaurant to a 3d animated portfolio.
-		</p>
-		<ul id="checkMarkFlex">
-			<div>
-				<li class="checkMarkList">Affordable prices</li>
-				<li class="checkMarkList">Customizable choices</li>
-				<li class="checkMarkList">Amazing looking websites</li>
-			</div>
-			<div>
-				<li class="checkMarkList">Efficient load times</li>
-				<li class="checkMarkList">Website hosting</li>
-				<li class="checkMarkList">Open source code</li>
-			</div>
-		</ul>
+			<h1>Website design made easy</h1>
+			<p>
+				A website can help immeasurably in promoting your business or resume, with anything from a
+				simple menu for a restaurant to a 3d animated portfolio.
+			</p>
+			<ul id="checkMarkFlex">
+				<div>
+					<li class="checkMarkList">Affordable prices</li>
+					<li class="checkMarkList">Customizable choices</li>
+					<li class="checkMarkList">Amazing looking websites</li>
+				</div>
+				<div>
+					<li class="checkMarkList">Efficient load times</li>
+					<li class="checkMarkList">Website hosting</li>
+					<li class="checkMarkList">Open source code</li>
+				</div>
+			</ul>
 
-		<a href="/services/webdev">
-			<button> Book a website </button>
-		</a>
+			<a href="/services/webdev">
+				<button> Book a website </button>
+			</a>
 		</div>
 	</section>
 	<section id="techsupport">
@@ -112,7 +113,6 @@ fonts:
 font-family: 'Arsenal', sans-serif;
 font-family: 'Open Sans', sans-serif;
   -->
-
 <style>
 	body {
 		max-width: 100%;
@@ -142,14 +142,15 @@ font-family: 'Open Sans', sans-serif;
 		font-size: 1.5rem;
 		padding-bottom: 1em;
 	}
-	.lineAbove{
-		  border-top: 1px solid black;
-			padding: 2em 1em;
+	.lineAbove {
+		border-top: 1px solid black;
+		padding: 2em 1em;
 	}
-	.lineAbove h2, .lineAbove p{
+	.lineAbove h2,
+	.lineAbove p {
 		color: black;
 	}
-	#eyecatcher2 h1{
+	#eyecatcher2 h1 {
 		color: black;
 		font-size: 2.5rem;
 	}
@@ -157,19 +158,19 @@ font-family: 'Open Sans', sans-serif;
 		h1 {
 			width: 66%;
 		}
-		#attentioncatcher{
+		#attentioncatcher {
 			flex-flow: row nowrap;
 		}
-		#webdesign{
+		#webdesign {
 			flex-flow: row nowrap;
 		}
-		 p {
+		p {
 			width: 66%;
 		}
-		 img {
+		img {
 			object-fit: contain;
 		}
-		.row{
+		.row {
 			display: flex;
 			flex-flow: row nowrap;
 			justify-content: space-between;

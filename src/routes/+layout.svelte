@@ -18,11 +18,12 @@
 			padding: 0;
 			font-family: 'Arsenal', sans-serif;
 			color: black;
-			}
+		}
 
-		h1, h2, button{
+		h1,
+		h2,
+		button {
 			font-family: 'Open Sans', sans-serif;
-			letter-spacing: 0.02em;
 		}
 		.headerbutton:hover {
 			background-color: white; /* Green */
