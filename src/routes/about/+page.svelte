@@ -1,6 +1,6 @@
 <script>
   let projects = [
-		{ name: 'J---aiyznGQ', image: 'Keyboard Cat', time: '', dateFinished: 1, link: 'https://google.com', description: ''},
+		{ name: 'This website!', catagory: 'Web Design', image: '/checkmark(1).jpg', time: '3 months', dateFinished: 2023, link: 'https://computerkidva.com', description: 'A website for my small business.'},
     { name: 'J---aiyznGQ', image: 'Keyboard Cat', time: '', dateFinished: 1, link: '', description: ''}
 	];
 </script>
@@ -16,19 +16,37 @@ I started out wanting to be a coder just because I love it, and eventually the s
 <section id="Grid">
 {#each projects as project}
   <a href={project.link} target=”_blank”><div class="GridItem">
-<img src="/checkmark(1).jpg" alt="Project">
-<h1>Cybersecurity</h1>
-<p>Time taken to make: </p>
+<img src={project.image} alt={"Picture of " + project.name}>
+<h1>{project.catagory} -  {project.name}</h1>
+<p>Completed in {project.dateFinished} after {project.time}.</p>
 </div></a>
 {/each}
 </section>
 <style>
     #Grid{
         display: grid;
+        gap: 1rem;
         grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+        
     }
     .GridItem{
         background: #ececec;
         border-radius: 30px;
+        aspect-ratio: 1;
+          border: 1px solid #bbb;
+
+        max-width: 70%;
+        display: flex;
+        flex-direction: column;
+          align-items: center;
+
+          justify-content: center;
+
+    }
+    .GridItem img{
+      width:80%;
+max-height:100%;
+
+object-fit: contain;
     }
 </style>
