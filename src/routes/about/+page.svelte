@@ -1,88 +1,20 @@
-<script>
-  /**
-	 * @param {number} projectNum
-	 */
-  function setProject(projectNum) {
-		if(projectNum == 0){
-      projects = techSupport;
-    }
-    else if(projectNum == 1){
-      projects = webDes;
-    }
-    else if(projectNum == 2){
-      projects = compRepair;
-    }
-    else{
-      projects = server;
-    }
-	}
-	/**
-	 * @type {any[]}
-	 */
-	
-  let compRepair = [
-		{
-			name: 'Successfully built and upgraded multiple desktops.',
-			image: '/checkmark(1).jpg',
-			time: '2 days each',
-			dateFinished: 2020-22,
-			link: 'https://computerkidva.com',
-			description: 'A website for my small business.'
-		}
-	];
-  let techSupport = [
-		{
-			name: 'a!',
-			image: '/checkmark(1).jpg',
-			time: '3 months',
-			dateFinished: 2023,
-			link: 'https://computerkidva.com',
-			description: 'A website for my small business.'
-		}
-	];
-  let webDes = [
-		{
-			name: 'b!',
-			image: '/checkmark(1).jpg',
-			time: '3 months',
-			dateFinished: 2023,
-			link: 'https://computerkidva.com',
-			description: 'A website for my small business.'
-		}
-	];
-  let server = [
-		{
-			name: 'c!',
-			image: '/checkmark(1).jpg',
-			time: '3 months',
-			dateFinished: 2023,
-			link: 'https://computerkidva.com',
-			description: 'A website for my small business.'
-		}
-	];
-  let projects = techSupport;
-</script>
 <section id="aboutMeHeader">
 <h1>Jax Bulbrook</h1>
 <p>I am a Systems Engineer, doing both hardware (tech support, product consulting, server management, and computer building) and software (website and game development)</p>
 </section>
-<h1>Projects</h1>
-<button on:click={() => setProject(0)}>Tech Support</button>
-<button on:click={() => setProject(1)}>Web/Game Design</button>
-<button on:click={() => setProject(2)}>Computer Repair</button>
-<button on:click={() => setProject(3)}>Server Management</button>
-<section id="Grid">
-	{#each projects as project}
-		<a href={project.link} target="”_blank”"
-			><div class="GridItem">
-				<img src={project.image} alt={'Picture of ' + project.name} />
-				<h1>{project.name}</h1>
-				<p>Completed in {project.dateFinished} after {project.time}.</p>
-			</div></a
-		>
-	{/each}
+<section id="experience">
+I have built two computers sucessfully, as well as upgraded and fixed at least 5 others. 
+I have experience with Server Management, with technologies including Proxmox, VMWare Esxi, and Linux machines. 
+I have experience with HTML, CSS, Javascript (with Sveltekit), Python, C#, and Java. 
+I have design experience, having done research into human psychology and color theory. 
+I have experience in both Gimp and Blender.
 </section>
-
+<section id="workingOn">
+I am currently working on learning Machine Learning. In the future, I hope to try to contribute to open source projects on Github, and look into Engineering with Fusion 360 and Raspberry Pi's.
+</section>
+<h1>Projects</h1>
+<section id="project1">
+</section>
 <style>
   #aboutMeHeader{
     padding: 8em 3em;
