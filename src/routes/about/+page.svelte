@@ -25,27 +25,4 @@ I am currently working on learning Machine Learning. In the future, I hope to tr
   h1{
     font-size: 3rem;
   }
-	#Grid {
-		display: grid;
-		gap: 1rem;
-		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-	}
-	.GridItem {
-		background: #ececec;
-		border-radius: 30px;
-		aspect-ratio: 19/10;
-		border: 1px solid #bbb;
-    padding: 1em;
-		max-width: 70%;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-
-		justify-content: center;
-	}
-	.GridItem img {
-		width: 80%;
-		max-height: 100%;
-		object-fit: contain;
-	}
 </style>
