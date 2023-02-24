@@ -59,7 +59,6 @@
 			border: -2px solid #0077b6; /* Green */
 			border-width: 1px;
 			border-style: solid;
-			margin: -1px;
 		}
 		.headerbutton {
 			background-color: #0077b6;
